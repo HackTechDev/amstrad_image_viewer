@@ -247,11 +247,8 @@ void PrintStartMenu() {
   cpct_drawSprite(g_logo_11, cpctm_screenPtr(CPCT_VMEM_START, G_LOGO_00_W, G_LOGO_00_H * 5), G_LOGO_11_W, G_LOGO_11_H);
 
 
-  PrintText("A", 0, 192, 0);
-  PrintText("B", 10, 194, 0);
-  PrintText("C", 20, 196, 0);
-  PrintText("D", 30, 198, 0);
-  PrintText("E", 40, 200, 0);
+  PrintText("COMMANDO", 5, 10, 0);
+  PrintText("ZOMBI", 5, 20, 0);
 }
 
 
