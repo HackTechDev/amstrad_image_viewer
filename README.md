@@ -1,5 +1,5 @@
-Commando Zombi  
-==============  
+Amstrad Image Viewer  
+====================  
 
 By Nekrofage <lesanglierdesardennes@gmail.com>  
   
