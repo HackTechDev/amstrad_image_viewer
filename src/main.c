@@ -228,12 +228,30 @@ cpct_keyID RedefineKey(u8 *info) {
 void PrintStartMenu() {
   ClearScreen();
 
-  cpct_drawSprite(g_logo_0, cpctm_screenPtr(CPCT_VMEM_START, 0, 0), G_LOGO_0_W, G_LOGO_0_H);
-  cpct_drawSprite(g_logo_1, cpctm_screenPtr(CPCT_VMEM_START, G_LOGO_0_W, 0), G_LOGO_0_W, G_LOGO_0_H);
+  cpct_drawSprite(g_logo_00, cpctm_screenPtr(CPCT_VMEM_START, 0, 0), G_LOGO_00_W, G_LOGO_00_H);
+  cpct_drawSprite(g_logo_01, cpctm_screenPtr(CPCT_VMEM_START, G_LOGO_00_W, 0), G_LOGO_00_W, G_LOGO_00_H);
 
-  PrintText("1@@@MISSION", 10, 50, 0);
+  cpct_drawSprite(g_logo_02, cpctm_screenPtr(CPCT_VMEM_START, 0, G_LOGO_00_H), G_LOGO_00_W, G_LOGO_00_H);
+  cpct_drawSprite(g_logo_03, cpctm_screenPtr(CPCT_VMEM_START, G_LOGO_00_W, G_LOGO_00_H), G_LOGO_00_W, G_LOGO_00_H);
 
-  PrintText("NEKROFAGE", 13, 190, 0);
+  cpct_drawSprite(g_logo_04, cpctm_screenPtr(CPCT_VMEM_START, 0, G_LOGO_00_H * 2), G_LOGO_00_W, G_LOGO_00_H);
+  cpct_drawSprite(g_logo_05, cpctm_screenPtr(CPCT_VMEM_START, G_LOGO_00_W, G_LOGO_00_H * 2), G_LOGO_00_W, G_LOGO_00_H);
+
+  cpct_drawSprite(g_logo_06, cpctm_screenPtr(CPCT_VMEM_START, 0, G_LOGO_00_H * 3), G_LOGO_00_W, G_LOGO_00_H);
+  cpct_drawSprite(g_logo_07, cpctm_screenPtr(CPCT_VMEM_START, G_LOGO_00_W, G_LOGO_00_H * 3), G_LOGO_00_W, G_LOGO_00_H);
+
+  cpct_drawSprite(g_logo_08, cpctm_screenPtr(CPCT_VMEM_START, 0, G_LOGO_00_H * 4), G_LOGO_00_W, G_LOGO_00_H);
+  cpct_drawSprite(g_logo_09, cpctm_screenPtr(CPCT_VMEM_START, G_LOGO_00_W, G_LOGO_00_H * 4), G_LOGO_00_W, G_LOGO_00_H);
+
+  cpct_drawSprite(g_logo_10, cpctm_screenPtr(CPCT_VMEM_START, 0, G_LOGO_00_H * 5), G_LOGO_10_W, G_LOGO_10_H);
+  cpct_drawSprite(g_logo_11, cpctm_screenPtr(CPCT_VMEM_START, G_LOGO_00_W, G_LOGO_00_H * 5), G_LOGO_11_W, G_LOGO_11_H);
+
+
+  PrintText("A", 0, 192, 0);
+  PrintText("B", 10, 194, 0);
+  PrintText("C", 20, 196, 0);
+  PrintText("D", 30, 198, 0);
+  PrintText("E", 40, 200, 0);
 }
 
 
